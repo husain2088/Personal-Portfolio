@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
+ *{
+    background-color:#2d444b;
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+.home{
+    margin-top: 120px;;
+}
+
+.box{
+    display:flex;
+    justify-content:space-evenly;
+    margin-right:200px;
+    margin-left:200px;
+    margin-top: 20px;
+    gap:10px;
+    margin-bottom:50px;
+}
+
+.box img {
+    border-radius:10px;
+    margin-right:40px;
+    width:360px;
+    height:404px;
+    border-radius:10px;
+    box-shadow:8px 8px 2px 1px #2D363F;
+}
+
+.box .text{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    padding-top:45px;
+}
+
+@media (max-width: 1000px){
+    .home{
+      margin-bottom:20px;
+    }
+    .box{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      margin-right:100px;
+      margin-left:100px;
+      margin-top: 20px;
+      gap:8px;
+    }
+      .box img {
+      border-radius:10px;
+      image-orientation: center;
+      width:200px;
+      height:240px;
+      border-radius:10px;
+      box-shadow:8px 8px 2px 1px #2D363F;
+    }
+}
+
+
+
+.text #des1{
+    font-size:45px;
+    font-family: poppins;
+    color: rgb(226, 249, 255);
+    font-weight: 80;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    
+  }
+
+.text #des2{
+    font-size:38px;
+    font-family:poppins;
+    color: rgb(226, 249, 255);
+    font-weight: 80;
+    padding-left: 10px;
+    padding-bottom: 2px;
+  }
+
+  .text #des0{
+    font-size:40px;
+    font-family: poppins;
+    color: #FF725E;
+    font-weight: 80;
+    padding-left: 0px;
+    padding-bottom: 35px;
+    text-shadow: 3px 3px 5px #222930;
+    
+  }
+
+.text #des3{
+    font-size:20px;
+    font-family:poppins;
+    padding-left: 10px;
+    color: rgb(226, 249, 255);
+    font-weight: 80;
+    
+    margin-bottom: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Hobbiesup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.Hobbies{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    
+}
+
+.hobleft{
+    display:flex;
+    justify-content:space-evenly;
+    margin-right:20px;
+    margin-left:250px;
+    margin-top: 20px;
+    gap:8px;
+    margin-bottom:50px;
+    width: 60%;
+    
+}
+
+.container2{
+    font-size:20px;
+  font-family:poppins;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(226, 249, 255);
+  font-weight: 80;
+  border-bottom:1px solid #FF725E;
+}
+
+.hobright{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+
+.container1{
+   margin-right: 50px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+   margin-left: 190px;
+   padding: 20px;
+   padding-left: 90px;
+   padding-right: 80px;
+   background-color:rgb(41, 63, 70);
+   box-shadow:8px 8px 2px 1px #2D363F;
+   font-size:40px;
+   font-family:poppins;
+   color:#FF725E;
+   
+   font-weight: 100;
+   border-radius:10px;
+   
+    
+}
+
+.container1 h1{
+    background-color:rgb(41, 63, 70);
+}
+
+.container{
+    margin: 30px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: #FF725E;
+    font-size:20px;
+    color:#2b4148;
+    font-weight: 100;
+    border-radius:10px;
+    box-shadow:8px 8px 2px 1px #2D363F;
+    
+}
+
+
+
+
+.card{
+    position: relative;
+    background-color:#2b4148;
+    box-shadow: inset 8px 8px 8px 0.5px rgb(31, 38, 44, 0.8),
+                inset -8px -8px 16px 0.5px rgb(55, 65, 76, 0.8),
+                8px 8px 16px 0.5px rgb(31, 38, 44, 0.8),
+                -8px -8px 16px 0.5px rgb(55, 65, 76, 0.8);
+    
+    border-radius: 15px;
+    margin: 30px;
+    display: flex;
+
+}
+
+
+
+
+
+.container{
+
+    display: flex;
+    align-items: center;
+    
+    margin: 20px;
+    padding: 20px;
+    background-color: #2d444b;
+    font-size:20px;
+    color:#324b53;
+    font-weight: 100;
+    border: 1px solid rgb(34, 40, 49, 0.5);
+    border-radius:10px;
+    box-shadow: 0px 20px 30px 0px #191d24;
+    width: 240px;
+    height: 240px;
+    transition: 0.6s;
+    
+    
+}
+
+.container:hover{
+    transform: translateY(-30px);
+}
+
+.c1{
+    background-image: url(./images/cpcp01.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    overflow: hidden;
+}
+
+.c2{
+    background-image: url(./images/fb03.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    overflow: hidden;
+}
+
+.c3{
+    background-image: url(./images/artart01.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    overflow: hidden;
+}
+
+@media (max-width: 1050px){
+    .hobright{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 280px;;
+    }
+}
+
+
+
+@media (max-width: 800px){
+    
+    .Hobbiesup{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction:row;
+        
+        text-align: left;
+        
+    }
+    .container1{
+        margin-left: 30px;
+        margin-right: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .Hobbies{
+      display:flex;
+      align-items: center;
+      
+      margin-right:10px;
+      margin-left:10px;
+      margin-top: 20px;
+      gap:8px;
+      text-align:left;
+    }
+    .hobleft{
+        margin-left: 30px;
+    }
+
+    .hobright{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 280px;;
+    }
+    
+    .container2{
+      display:flex;
+      flex-direction:column;
+      align-items:start;
+      justify-content:safe;
+      margin-right:10px;
+      margin-left:10px;
+      margin-top: 20px;
+      gap:8px;
+      text-align:left;
+
+    }
+
+     
+}
+
+
+
+.contact{
+    background-color:#FF725E;
+    padding-top:70px;
+    padding-bottom:60px;
+  }
+  .full{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+    justify-content:center;
+    align-content:center;
+    background-color:#FF725E;
+    max-width: 1140px;
+    margin-right:auto;
+    margin-left:auto;
+    
+  }
+  
+  
+  .full span{
+    color:#212831;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
+    font-size:40px;
+    font-weight:400;
+    background-color:#FF725E;
+    
+  }
+  
+  @media (max-width: 800px){
+   
+    .full span{
+      color:#212831;
+      font-family:poppins;
+      text-align:center;
+      font-size:16px;
+      font-weight:400;
+      background-color:#FF725E;
+      
+    }
+}
+
+.conlef{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+    gap: 20px;
+    background-color: #FF725E;
+}
+
+.contact-inputs{
+    width: 450px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color:#2d444b;
+    background-color: rgb(225, 238, 248);
+}
+
+.conlef textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid #bc5858;
+}
+
+.contact-inputs::placeholder{
+    color: #56808b;
+}
+
+.conlef button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: whitesmoke;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #af3f30;
+    cursor: pointer;
+}
+
+@media (max-width: 800px){
+
+    .contact-inputs{
+        width: 300px;
+    }
+
+}
+
+
+
+
+
+.tr1.anim{
+    animation-delay: 0.15s;
+}
+
+.tr2.anim{
+    animation-delay: 0.30s;
+}
+
+.tr3.anim{
+    animation-delay: 0.45s;
+}
+
+.tr4.anim{
+    animation-delay: 0s;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(50px);
+    animation: moveup 0.8s linear forwards;
+}
+
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+
+

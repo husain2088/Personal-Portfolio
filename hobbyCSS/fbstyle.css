@@ -1,0 +1,84 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9, 1, 64, 0.4),rgba(18, 14, 28, 0.5)), url(../images/junk01.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    overflow: hidden;
+   
+
+}
+
+.str{
+    display: flex;
+    gap: 30px;
+    padding: 80px;
+    
+    
+}
+.str img{
+    margin-top: 100px;
+}
+
+
+.text{
+    font-size:22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(70, 75, 79);
+    font-weight: 80;
+    text-shadow: 0px 0px 2px rgba(51, 65, 59, 0.5);
+    
+}
+
+.pict img{
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgb(70, 75, 79);
+}
+
+@media (max-width: 900px){
+
+    .str{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+.anim1{
+    opacity: 0;
+    transform: translateX(-70px);
+    animation: moveup 0.99s linear forwards;
+}
+
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+.anim2{
+    opacity: 0;
+    transform: translateY(70px);
+    animation: moveup 0.99s linear forwards;
+}
+
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
